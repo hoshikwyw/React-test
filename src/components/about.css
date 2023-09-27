@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  width: 524px;
+  height: 524px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  position: relative;
+  width: 524px;
+  height: 524px;
+  border-radius: 50%;
+  border: 5px solid #db3434;
+  border-image: repeat;
+  border-image-outset: 10px;
+  animation: rotate 10s linear infinite;
+}
+.box1 {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 5px solid #db3434;
+  border-image: repeat;
+  border-image-outset: 10px;
+  /* animation: rotate 10s linear infinite; */
+}
+.box2 {
+  position: relative;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  border: 5px solid #db3434;
+  border-image: repeat;
+  border-image-outset: 10px;
+  /* animation: rotate 20s linear infinite; */
+}
+.box3 {
+  position: relative;
+  width: 554px;
+  height: 534px;
+  clip-path: polygon(65% 26%, 65% 0%, 38% 0%, 38% 25%, 0% 25%, 0% 55%, 38% 55%, 37% 100%, 63% 100%, 64% 54%, 100% 54%, 100% 27%);
+background-color: #ffffff;
+  /* animation: rotate 20s linear infinite; */
+}
+
+.box4 {
+  position: relative;
+  width: 1054px;
+  height: 1034px;
+  clip-path: polygon(66% 23%, 66% 0%, 38% 0%, 39% 45%, 0% 44%, 0% 66%, 38% 68%, 38% 100%, 64% 100%, 65% 67%, 100% 67%, 100% 42%, 65% 44%);
+background-color: #ffffff;
+  /* animation: rotate 20s linear infinite; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
